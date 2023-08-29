@@ -1,0 +1,12 @@
+hoisiting is a phenomena in javascript in which we can access variables and functions 
+even before we have initialised it or put some value in it.
+so where ever variable is defined we can access it before also.
+
+Even before code starts executing memory is assigned to all the variables.
+
+So this happens because of memory creation phase as in this phase all the variables are 
+assigned a memory and their initial value is stored as undefined and it is not updated till 
+the moment execution reaches to intialisation part. 
+But for the case of functions it is stored as it is in memory creation phase only 
+therefore we can even access the function before its declaration.
+
