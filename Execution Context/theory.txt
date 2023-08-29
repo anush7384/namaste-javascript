@@ -17,3 +17,15 @@ After completion of program global E.C is also deleted.
 --> In memory creation phase
 initially all the variables are assigned memory and their value is undefined.
 functions are fully initiallised in this phase.
+
+--> Javascript manages all the execution Context using its call stack.
+--> At the bottom of call stack there is always Global Execution context.
+if any other execution stack is created inside program it is pushed in stack.
+after its completion its poped out of stack and execution go backs to where it left in global execution context.
+
+--> Call stack maintains the order of execution of execution contexts.
+It is also known as
+>Execution context stack
+>program stack
+>Control Stack 
+>RunTime Stack 
