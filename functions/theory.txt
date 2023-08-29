@@ -1,0 +1,9 @@
+-->when a() function is envoked an execution context is created inside global Execution context
+and it is pushed inside stack
+in which it again goes to 2 phases and var x is inside this context only it doesnt affect outer variable x 
+ 
+-->After the function has been executed its Execution context is removed from stack and control again goes to 
+part where global execution context was stopped now if we access variable x it will 
+show the intial value it had in global Execution context only.
+
+After whole program is finished then global execution context also gets removed from Call Stack and deleted.
