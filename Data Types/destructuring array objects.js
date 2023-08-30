@@ -12,7 +12,6 @@ let names = ["Rahul", "rohan", "rajat", "robin", "rolph"];
 let [a, b, ...restStudents] = names; // a = rahul b = rohan
 console.log(restStudents); // [rajat,robin,rolph]
 
-
 //OBJECT DESTRUCTURING
 let options = {
   title: "Menu",
@@ -22,5 +21,5 @@ let options = {
 
 let { title, width, height } = options;
 console.log(title);
-console.log(width);
 console.log(height);
+console.log(width);
