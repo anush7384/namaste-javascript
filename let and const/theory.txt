@@ -1,0 +1,21 @@
+let and const are hoisted 
+these are in temporal dead zone for time being 
+
+memory was assigned to b to the var declaration and this variable b was attached to global object.
+in case of let and const they are also allocated memory i.e. hoisting is done 
+but they are stored in separate memory space and they cannot be accessed before we have put some value in them 
+
+the phase from which the let variable is assigned memory till it is given a value is called temporal dead zone.
+
+so whenever we try to access a variable in its temporal dead zone, it gives reference error.
+
+let and const are not present in Window object 
+they are maintained in their separate space 
+only var variables are present in windows object.
+
+let is more strict than var
+let cannot be redecalred
+
+The best way to avoid temporal dead zone is to 
+always intialize the declarations at top of the scope 
+so that as code runs it hits the initialization part first 
